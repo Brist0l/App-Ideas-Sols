@@ -15,8 +15,6 @@ int main(){
 	for (int i = 0; i < 8 ; i++) 
 		if(bin[i] == '1')
 			dec += nums[i];
-	
-	
 	std::cout << "Dec Num:" << dec;
 	
 	return 0;
